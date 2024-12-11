@@ -67,18 +67,20 @@ function playRound(humanChoice, computerChoice) {
     playRound(getHumanChoice(), getComputerChoice());
 }
 
-function playGame() {
-    for (i = 0; i < 5; i++) {
-        playRound(getHumanChoice(), getComputerChoice());
-    }
 
-    if (humanScore > computerScore) {
-        console.log("You win the game!");
-        return;
-    } else {
-        console.log("You lose!")
-        return;
-    }
-}
+
+// function playGame() {
+//     for (i = 0; i < 5; i++) {
+//         playRound(getHumanChoice(), getComputerChoice());
+//     }
+
+//     if (humanScore > computerScore) {
+//         console.log("You win the game!");
+//         return;
+//     } else {
+//         console.log("You lose!")
+//         return;
+//     }
+// }
 
 playGame();
